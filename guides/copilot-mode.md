@@ -8,7 +8,9 @@
 2. Click **Allow agent** - you get a short **board code** (e.g. `K7MP`). The tab title becomes `[Glint K7MP] …`.
 3. Tell your agent: *use Glint board K7MP* (or paste the code).
 4. The agent attaches with MCP `glint_editor_*` (or CDP / CLI) - it must **not** open a new Glint URL.
-5. Watch the **agent cursor** move frame-to-frame; hit **Pause** anytime; export when done.
+5. Watch the **agent cursor** move frame-to-frame; hit **Pause** anytime; **Close** (X) to disconnect.
+
+Allow agent stays on across reload / hot refresh until you **Pause** (agent blocked) or **Close** (pair cleared). Closing the browser tab also clears it.
 
 **Board pass:** one source frame’s transform is applied across the board left→right (shared scale/angle), so every screenshot updates in sequence under the agent cursor.
 
