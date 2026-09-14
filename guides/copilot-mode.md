@@ -8,7 +8,14 @@
 2. Click **Allow agent** - you get a short **board code** (e.g. `K7MP`). The tab title becomes `[Glint K7MP] …`.
 3. Tell your agent: *use Glint board K7MP* (or paste the code).
 4. The agent attaches to **that tab** via `window.__GLINT_COPILOT__` / browser tools - it must **not** open a new Glint URL.
-5. Watch live edits; hit **Pause** anytime; export when done.
+5. Watch the **agent cursor** move frame-to-frame; hit **Pause** anytime; export when done.
+
+**Stitch pass:** one source frame’s transform is applied across the board left→right with shared knowledge (scale/angle), so every screenshot updates in sequence like a coordinated pass.
+
+```bash
+# Chrome must be started with --remote-debugging-port=9222
+node scripts/copilot-attach.mjs --pair K7MP
+```
 
 If you have many tabs open: only boards with **Allow agent** on are attachable. Focused tab sorts first. If several are allowed, the agent uses your board code.
 
