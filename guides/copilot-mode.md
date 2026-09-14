@@ -59,4 +59,4 @@ Say it clearly in chat: “use the **selected** device as the template.”
 - [AI workflow](ai-workflow.md)  
 - [Architecture](../reference/architecture.md)  
 - [Checklist](smoke-checklist.md)  
-- [Glint-MCP](https://github.com/Glint-Org/Glint-MCP)  
+- [Glint-MCP](https://github.com/GlintShot/Glint-MCP)  

@@ -9,13 +9,13 @@ Get your first store ZIP in under 15 minutes. Start with one device.
 dev_dependencies:
   glint_capture:
     git:
-      url: https://github.com/Glint-Org/Glint-Capture.git
+      url: https://github.com/GlintShot/Glint-Capture.git
       ref: v0.1.0
 ```
 
 ```bash
 dart pub get
-dart pub global activate --source git https://github.com/Glint-Org/Glint-Capture.git
+dart pub global activate --source git https://github.com/GlintShot/Glint-Capture.git
 glint init
 # Edit rules for 3-5 real screens (home, feature, settings…)
 # Tip: capture pixel9 only until you are comfortable

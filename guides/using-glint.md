@@ -37,7 +37,7 @@ No account. Work stays on your machine.
 - Add Capture as a Flutter `dev_dependency`
 - Keep rules in `test/glint_screenshots_test.dart` (real widgets only)
 - Run `glint capture` locally or in CI, or the repo scripts under `Glint-Capture/scripts/`
-- Or drive Capture / Bridge / export via **[Glint MCP](https://github.com/Glint-Org/Glint-MCP)** from Cursor / Claude Code
+- Or drive Capture / Bridge / export via **[Glint MCP](https://github.com/GlintShot/Glint-MCP)** from Cursor / Claude Code
 - Artifact: output folder with PNGs + `session.json` (and optionally a ZIP from `glint_export`)
 - Open Web only when you want Mode 1 polish
 

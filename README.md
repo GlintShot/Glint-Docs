@@ -2,8 +2,8 @@
 
 Official docs for **Glint** - turn real app UI into Play Store and App Store screenshots.
 
-**Site:** https://glint-org.github.io/Glint-Docs/  
-**Org:** https://github.com/Glint-Org
+**Site:** https://glintshot.github.io/Glint-Docs/  
+**Org:** https://github.com/GlintShot
 
 ```
 Capture / Bridge  →  Web  →  ZIP  →  View (optional)
@@ -40,10 +40,10 @@ Capture / Bridge  →  Web  →  ZIP  →  View (optional)
 
 | Product | Purpose |
 |---------|---------|
-| [Glint-Capture](https://github.com/Glint-Org/Glint-Capture) | Flutter capture (no emulator) |
-| [Glint-Bridge](https://github.com/Glint-Org/Glint-Bridge) | Android / web capture |
-| [Glint-Web](https://github.com/Glint-Org/Glint-Web) | Frames editor and ZIP export |
-| [Glint-MCP](https://github.com/Glint-Org/Glint-MCP) | Agent tools |
-| [Glint-View](https://github.com/Glint-Org/Glint-View) | On-device store preview |
+| [Glint-Capture](https://github.com/GlintShot/Glint-Capture) | Flutter capture (no emulator) |
+| [Glint-Bridge](https://github.com/GlintShot/Glint-Bridge) | Android / web capture |
+| [Glint-Web](https://github.com/GlintShot/Glint-Web) | Frames editor and ZIP export |
+| [Glint-MCP](https://github.com/GlintShot/Glint-MCP) | Agent tools |
+| [Glint-View](https://github.com/GlintShot/Glint-View) | On-device store preview |
 
 **Real UI only** - never invent App Store screenshots.

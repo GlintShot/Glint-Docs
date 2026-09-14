@@ -35,7 +35,7 @@ Open Glint Web, import a session or PNGs, pick a template, edit frames (bezel, s
 An IDE agent (Cursor, Claude Code, Copilot) or CI calls **MCP / CLI** tools. Work happens offstage - you review the **outputs** (session folder, rendered PNGs, ZIP).
 
 Typical tools: discover / capture / Bridge crawl / validate / render / export.  
-Guide: [AI workflow](../guides/ai-workflow.md) · [Glint-MCP](https://github.com/Glint-Org/Glint-MCP)
+Guide: [AI workflow](../guides/ai-workflow.md) · [Glint-MCP](https://github.com/GlintShot/Glint-MCP)
 
 **Rules:** prefer real app screens; never fabricate UI tiles; do not paste Capture LLM keys into the product for polish.
 

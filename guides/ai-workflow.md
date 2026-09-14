@@ -59,4 +59,4 @@ Use Glint by hand (**Mode 1**), ask **Cursor / Claude / Copilot** to run tools (
 
 - [Editor modes](../reference/editor-modes.md) · [Copilot mode](copilot-mode.md)
 - [Setup](setup.md) · [Workflow](workflow.md) · [Using Glint](using-glint.md)
-- [Glint-MCP](https://github.com/Glint-Org/Glint-MCP)
+- [Glint-MCP](https://github.com/GlintShot/Glint-MCP)
