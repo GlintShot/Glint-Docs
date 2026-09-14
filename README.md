@@ -47,3 +47,7 @@ Capture / Bridge  →  Web  →  ZIP  →  View (optional)
 | [Glint-View](https://github.com/GlintShot/Glint-View) | On-device store preview |
 
 **Real UI only** - never invent App Store screenshots.
+
+## License
+
+MIT - see [LICENSE](./LICENSE).
