@@ -10,7 +10,7 @@
 4. The agent attaches to **that tab** via `window.__GLINT_COPILOT__` / browser tools - it must **not** open a new Glint URL.
 5. Watch the **agent cursor** move frame-to-frame; hit **Pause** anytime; export when done.
 
-**Stitch pass:** one source frame’s transform is applied across the board left→right with shared knowledge (scale/angle), so every screenshot updates in sequence like a coordinated pass.
+**Board pass:** one source frame’s transform is applied across the board left→right (shared scale/angle), so every screenshot updates in sequence under the agent cursor.
 
 ```bash
 # Chrome must be started with --remote-debugging-port=9222
