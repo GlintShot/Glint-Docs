@@ -47,8 +47,8 @@ Agents **must not** generate fake UI. Details: [AI workflow](ai-workflow.md).
 
 Agent drives the **same** editor controls you use; you watch (and can take over), then teach (“I fixed frame 1 - do the rest like this”).
 
-1. Open Glint Web → **Allow agent** on the Copilot bar
-2. Hit **Demo** or ask your coding agent (editor MCP tools are expanding)
+1. Open Glint Web → **Allow agent** on the Copilot bar → share the board code
+2. Ask your agent to use MCP `glint_editor_*` (Chrome CDP) or the attach CLI
 3. **Pause** anytime to edit by hand; Resume when ready
 
 - Guide: [Copilot mode](copilot-mode.md)

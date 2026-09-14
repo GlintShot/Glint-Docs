@@ -36,7 +36,7 @@ Use Glint by hand (**Mode 1**), ask **Cursor / Claude / Copilot** to run tools (
 | Compose / edit | Headlines, colors, bezel (no browser) | MCP `glint_render` |
 | Polish by eye | Templates, captions, scale, rotation | Glint Web (Mode 1) |
 | Export | ZIP | Web or `glint_export` |
-| Live “watch me work” | Shared board + telepresence | Mode 3 - see [Copilot](copilot-mode.md) |
+| Live “watch me work” | Shared board + telepresence | Mode 3: `glint_editor_*` - [Copilot](copilot-mode.md) |
 
 ## What AI should not do
 
@@ -53,7 +53,7 @@ Use Glint by hand (**Mode 1**), ask **Cursor / Claude / Copilot** to run tools (
 
 **Developer (later):** "I'm in the editor - match the other frames to my Frame 1 device size and angle"
 
-**Agent should (Mode 3):** read editor state → apply canvas verbs with telepresence → stop if they Pause / Take over.
+**Agent should (Mode 3):** get board code → `glint_editor_state` → `glint_editor_dispatch` / `glint_editor_board_pass` → stop if they Pause.
 
 ## Related docs
 

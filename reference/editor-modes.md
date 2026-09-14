@@ -45,7 +45,7 @@ Guide: [AI workflow](../guides/ai-workflow.md) · [Glint-MCP](https://github.com
 
 You and an agent share the Glint Web board. The agent drives the same controls; you can watch, pause, and teach (“I fixed frame 1 - do the others like this”).
 
-**In the editor today:** Copilot bar → **Allow agent** / **Pause** / **Demo**, with a live status line and frame highlight.
+**In the editor today:** Copilot bar → **Allow agent** (board code) / **Pause**, agent cursor + frame highlight. Agents use MCP `glint_editor_*` on that code.
 
 Guide: [Copilot mode](../guides/copilot-mode.md)
 

@@ -52,7 +52,7 @@ Glint Web exposes the **same canvas verbs** three ways:
 
 Design and phases: **[Editor modes](editor-modes.md)**. Copilot UX: **[Copilot mode](../guides/copilot-mode.md)**.
 
-Agents use **Glint MCP** for Mode 2; Mode 3 adds a paired live session on top of those verbs (Canvas Agent API + telepresence).
+Agents use **Glint MCP** for Mode 2 (`glint_export` / `glint_render`) and Mode 3 (`glint_editor_*` via Chrome CDP on the user board code).
 
 ## Data Flow
 
