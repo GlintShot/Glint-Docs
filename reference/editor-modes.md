@@ -6,7 +6,9 @@ Glint uses the **same actions** everywhere - import shots, pick a template, set 
 |------|------------|--------------|----------|
 | **1. Manual** | You in Glint Web | Full editor | Polish and last-mile taste |
 | **2. Headless / MCP** | Agent or CI via tools | Final screenshots / ZIP | Speed and automation |
-| **3. Copilot** | You + agent on one board | Agent actions live in the editor | Demos, trust, teach-by-edit |
+| **3. Copilot** | You + agent on **one** board | Agent actions live in your open tab | Demos, trust, teach-by-edit |
+
+Pairing: click **Allow agent** → share the board code with your agent. The agent attaches to that tab (tab title `[Glint CODE]`). It must not open a new editor.
 
 ```
                     ┌─────────────────────────┐
